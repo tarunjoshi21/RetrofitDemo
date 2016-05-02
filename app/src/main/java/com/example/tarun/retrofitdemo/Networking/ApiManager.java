@@ -41,7 +41,7 @@ public class ApiManager {
 
         // MultipartBody.Part is used to send also the actual file name
         MultipartBody.Part body =
-                MultipartBody.Part.createFormData("picture", file.getName(), requestFile);
+                MultipartBody.Part.createFormData("profilePicture", file.getName(), requestFile);
 
         // add another part within the multipart request
         String descriptionString = "hello, this is description speaking";
